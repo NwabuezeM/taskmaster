@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>TaskMaster</title>
+  </head>
+  <body>
+    <header>
+      <h1>TaskMaster</h1>
+      <button>Sign In</button>
+    </header>
+    <div id="task-form">
+      <input type="text" id="title" placeholder="Task Title" />
+      <textarea id="description" placeholder="Task Description"></textarea>
+      <input type="date" id="deadline" />
+      <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="add-task">Add Task</button>
+    </div>
+    <div id="task-list"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
